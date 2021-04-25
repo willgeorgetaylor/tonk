@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tonk.Parser", "Tonk.Parser\Tonk.Parser.csproj", "{2F8A9330-7581-485A-BEA4-433BB5075930}"
+	ProjectSection(ProjectDependencies) = postProject
+		{54ACF049-7220-49B3-BD3A-DBDE2BEBBEB2} = {54ACF049-7220-49B3-BD3A-DBDE2BEBBEB2}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tonk.IO", "Tonk.IO\Tonk.IO.csproj", "{BCC70F3A-56C1-4215-8582-74FD8A811293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tonk.DOM", "Tonk.DOM\Tonk.DOM.csproj", "{54ACF049-7220-49B3-BD3A-DBDE2BEBBEB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tonk.Editor", "DXApplication1\DXWebApplication1\Tonk.Editor.csproj", "{27FCEB06-AAAD-4E31-8647-0206AE1CD77A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "ConsoleApplication1\TestApp.csproj", "{0DFFD7C2-7633-42DC-B2B4-88E50ABF691F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tonk.Functions", "Tonk.Functions\Tonk.Functions.csproj", "{F1448232-39FE-4348-9F71-E382C0392BB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F8A9330-7581-485A-BEA4-433BB5075930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F8A9330-7581-485A-BEA4-433BB5075930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F8A9330-7581-485A-BEA4-433BB5075930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F8A9330-7581-485A-BEA4-433BB5075930}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC70F3A-56C1-4215-8582-74FD8A811293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC70F3A-56C1-4215-8582-74FD8A811293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC70F3A-56C1-4215-8582-74FD8A811293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC70F3A-56C1-4215-8582-74FD8A811293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54ACF049-7220-49B3-BD3A-DBDE2BEBBEB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54ACF049-7220-49B3-BD3A-DBDE2BEBBEB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54ACF049-7220-49B3-BD3A-DBDE2BEBBEB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54ACF049-7220-49B3-BD3A-DBDE2BEBBEB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27FCEB06-AAAD-4E31-8647-0206AE1CD77A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27FCEB06-AAAD-4E31-8647-0206AE1CD77A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27FCEB06-AAAD-4E31-8647-0206AE1CD77A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27FCEB06-AAAD-4E31-8647-0206AE1CD77A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DFFD7C2-7633-42DC-B2B4-88E50ABF691F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DFFD7C2-7633-42DC-B2B4-88E50ABF691F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DFFD7C2-7633-42DC-B2B4-88E50ABF691F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DFFD7C2-7633-42DC-B2B4-88E50ABF691F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1448232-39FE-4348-9F71-E382C0392BB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1448232-39FE-4348-9F71-E382C0392BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1448232-39FE-4348-9F71-E382C0392BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1448232-39FE-4348-9F71-E382C0392BB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4517A67B-8545-43A2-85EC-BD3DBDE44BC0}
+	EndGlobalSection
+EndGlobal
